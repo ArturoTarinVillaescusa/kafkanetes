@@ -27,7 +27,7 @@ objects:
     name: ${OBJECT_NAME_PREFIX}-1
   spec:
     accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
     resources:
       requests:
         storage: ${VOLUME_CAPACITY}
@@ -38,7 +38,7 @@ objects:
     name: ${OBJECT_NAME_PREFIX}-2
   spec:
     accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
     resources:
       requests:
         storage: ${VOLUME_CAPACITY}
@@ -49,7 +49,7 @@ objects:
     name: ${OBJECT_NAME_PREFIX}-3
   spec:
     accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
     resources:
       requests:
         storage: ${VOLUME_CAPACITY}
