@@ -93,7 +93,7 @@ objects:
     - type: ConfigChange
     - type: ImageChange
       imageChangeParams:
-        automatic: false
+        automatic: true
         containerNames:
         - kafkanetes
         from:
@@ -139,7 +139,7 @@ objects:
     - type: ConfigChange
     - type: ImageChange
       imageChangeParams:
-        automatic: false
+        automatic: true
         containerNames:
         - kafkanetes
         from:
@@ -185,7 +185,7 @@ objects:
     - type: ConfigChange
     - type: ImageChange
       imageChangeParams:
-        automatic: false
+        automatic: true
         containerNames:
         - kafkanetes
         from:
